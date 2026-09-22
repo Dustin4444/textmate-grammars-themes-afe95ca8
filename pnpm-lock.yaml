@@ -121,8 +121,8 @@ catalogs:
       specifier: ^7.3.0
       version: 7.3.0
     pnpm:
-      specifier: ^11.1.3
-      version: 11.1.3
+      specifier: ^11.11.0
+      version: 11.25.0
     rimraf:
       specifier: ^6.1.3
       version: 6.1.3
@@ -278,7 +278,7 @@ importers:
         version: 7.3.0
       pnpm:
         specifier: 'catalog:'
-        version: 11.1.3
+        version: 11.25.0
       rimraf:
         specifier: 'catalog:'
         version: 6.1.3
@@ -3711,8 +3711,8 @@ packages:
   pnpm-workspace-yaml@1.6.0:
     resolution: {integrity: sha512-uUy4dK3E11sp7nK+hnT7uAWfkBMe00KaUw8OG3NuNlYQoTk4sc9pcdIy1+XIP85v9Tvr02mK3JPaNNrP0QyRaw==}
 
-  pnpm@11.1.3:
-    resolution: {integrity: sha512-yFNX/hfKEt0j3XBxgiZm39fjy3b+IU4zcLXqL7NPKiMRhVCbY+cX880KyzjdP42CvNXoFyQArmeLcOpPvtCJbQ==}
+  pnpm@11.25.0:
+    resolution: {integrity: sha512-XN6SW08HX3Jetx+64YpC/+eEUkeJ8ZthxzHLhyHsKKruFg4BqNWvT+2ypCzb8wDv4j2zVrDUoXtNY+EfirfJVg==}
     engines: {node: '>=22.13'}
     hasBin: true
 
@@ -8141,7 +8141,7 @@ snapshots:
     dependencies:
       yaml: 2.9.0
 
-  pnpm@11.1.3: {}
+  pnpm@11.25.0: {}
 
   postcss-calc@10.1.1(postcss@8.5.14):
     dependencies:
